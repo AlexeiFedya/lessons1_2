@@ -1,11 +1,14 @@
 import React from 'react';
+import Icon from './Icon';
+import './horizontbar.css'
 
-function Iconbar() {
+function Iconbar(props) {
   return (
     <div>
-      Hello Stas
+      <Icon>
+        <section>{props.oriental}</section>
+      </Icon>
     </div>
   );
 }
-
 export default Iconbar;
