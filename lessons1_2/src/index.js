@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Iconbar from './Iconbar';
+import Iconbarhorver from './Iconbarhorver';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Iconbar />, document.getElementById('root'));
+ReactDOM.render(<Iconbarhorver />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
