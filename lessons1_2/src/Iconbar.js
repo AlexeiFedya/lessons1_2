@@ -1,14 +1,13 @@
 import React from 'react';
 import Icon from './Icon';
-import './horizontbar.css'
+import './bar.css'
 
-function Iconbar(props) {
-  return (
-    <div>
-      <Icon>
-        <section>{props.oriental}</section>
-      </Icon>
+function Iconbar({orientation}) {
+  return !orientation || orientation === 'horizontal'
+  ?  <div className='horizontal'>
+      <Icon />
     </div>
-  );
+  : <Icon />
 }
+
 export default Iconbar;
